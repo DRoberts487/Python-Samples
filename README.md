@@ -1,1 +1,2 @@
-# Python-Samples, Very simple GPA calculator!
+# Python-Samples
+Very simple GPA calculator!
