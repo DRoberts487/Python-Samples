@@ -5,5 +5,7 @@ for rolls in range (20):
     print(randomDice)
     if randomDice==20:
         print ('Critical Hit')
+    if randomDice==1:
+        print ('YOU LOSE,NICE TRY')
 print ('Done Rolling')
 
