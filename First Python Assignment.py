@@ -1,6 +1,6 @@
 import random
 numberRolls=int (input('How many times do you want to roll?'))
-numberSides=int (input ('How many sides is there?'))
+numberSides=int (input('How many sides is there?'))
 for count in range(numberRolls):
     throw = random.randrange(20)+1
     print ('Roll is:')
