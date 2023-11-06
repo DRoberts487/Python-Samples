@@ -1,0 +1,11 @@
+import random 
+import sys
+
+#Ask USer for the number of rolls
+try:
+numberRolls = int (input ('How many times do you want to roll?')
+Except:
+print ('input must be an integer')
+sys.exit()
+# Ask the user for how many
+try
