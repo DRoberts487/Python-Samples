@@ -2,12 +2,12 @@ import random
 numberRolls=int (input('How many times do you want to roll?'))
 numberSides=int (input('How many sides is there?'))
 for count in range(numberRolls):
-    throw = random.randrange(20)+1
+    throw = random.randrange(numberSides)+1
     print ('Roll is:')
     print(throw)
-    if throw==20:
+if throw==20:
             print ('Critical Hit')
-    elif throw==1:
+elif throw==1:
             print ('Critical Miss')
 
 
